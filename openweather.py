@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def get_weather_data(api_key, cities):
+    # docs: https://openweathermap.org/current#name
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     raining_cities = []
     
